@@ -1,0 +1,152 @@
+{
+  "id": "acct_1GGk1UL1F8SCaTrV",
+  "object": "account",
+  "business_profile": {
+    "mcc": "5045",
+    "name": null,
+    "product_description": null,
+    "support_address": null,
+    "support_email": null,
+    "support_phone": null,
+    "support_url": null,
+    "url": "www.truefanz.com"
+  },
+  "business_type": "individual",
+  "capabilities": {
+    "transfers": "active"
+  },
+  "charges_enabled": true,
+  "country": "US",
+  "created": 1582800920,
+  "default_currency": "usd",
+  "details_submitted": true,
+  "email": "indrajit@logic-square.com",
+  "external_accounts": {
+    "object": "list",
+    "data": [
+      {
+        "id": "ba_1GGk1VL1F8SCaTrVwklLM6H5",
+        "object": "bank_account",
+        "account": "acct_1GGk1UL1F8SCaTrV",
+        "account_holder_name": null,
+        "account_holder_type": null,
+        "bank_name": "STRIPE TEST BANK",
+        "country": "US",
+        "currency": "usd",
+        "default_for_currency": true,
+        "fingerprint": "0cXClcKtgVTOE0iW",
+        "last4": "6789",
+        "metadata": {},
+        "routing_number": "110000000",
+        "status": "new"
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/accounts/acct_1GGk1UL1F8SCaTrV/external_accounts"
+  },
+  "individual": {
+    "id": "person_GoMlL8zwfPV0UZ",
+    "object": "person",
+    "account": "acct_1GGk1UL1F8SCaTrV",
+    "address": {
+      "city": "Brockton",
+      "country": "US",
+      "line1": "700 Oak Street",
+      "line2": null,
+      "postal_code": "2301",
+      "state": "MA"
+    },
+    "created": 1582800923,
+    "dob": {
+      "day": 6,
+      "month": 1,
+      "year": 1975
+    },
+    "email": "indrajit@logic-square.com",
+    "first_name": "Indrajit",
+    "id_number_provided": true,
+    "last_name": "Roy",
+    "metadata": {},
+    "phone": "+12027622401",
+    "relationship": {
+      "director": false,
+      "executive": false,
+      "owner": false,
+      "percent_ownership": null,
+      "representative": true,
+      "title": null
+    },
+    "requirements": {
+      "currently_due": [],
+      "eventually_due": [],
+      "past_due": [],
+      "pending_verification": []
+    },
+    "ssn_last_4_provided": true,
+    "verification": {
+      "additional_document": {
+        "back": null,
+        "details": null,
+        "details_code": null,
+        "front": null
+      },
+      "details": null,
+      "details_code": null,
+      "document": {
+        "back": null,
+        "details": null,
+        "details_code": null,
+        "front": null
+      },
+      "status": "pending"
+    }
+  },
+  "metadata": {},
+  "payouts_enabled": true,
+  "requirements": {
+    "current_deadline": null,
+    "currently_due": [],
+    "disabled_reason": null,
+    "eventually_due": [],
+    "past_due": [],
+    "pending_verification": []
+  },
+  "settings": {
+    "branding": {
+      "icon": null,
+      "logo": null,
+      "primary_color": null
+    },
+    "card_payments": {
+      "decline_on": {
+        "avs_failure": false,
+        "cvc_failure": false
+      },
+      "statement_descriptor_prefix": null
+    },
+    "dashboard": {
+      "display_name": "Truefanz",
+      "timezone": "Etc/UTC"
+    },
+    "payments": {
+      "statement_descriptor": "WWW.TRUEFANZ.COM",
+      "statement_descriptor_kana": null,
+      "statement_descriptor_kanji": null
+    },
+    "payouts": {
+      "debit_negative_balances": false,
+      "schedule": {
+        "delay_days": 2,
+        "interval": "daily"
+      },
+      "statement_descriptor": null
+    }
+  },
+  "tos_acceptance": {
+    "date": 1582705646,
+    "ip": "182.16.119.65",
+    "user_agent": null
+  },
+  "type": "custom"
+}
